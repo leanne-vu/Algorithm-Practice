@@ -20,22 +20,27 @@
 // Any swap of any two elements either in a or in b won't make a and b equal.
 
 function solution(a, b) {
-  var are = true;
-  var av = null;
-  var bv = null;
-  var swap = false;
-  for (var i = 0; i < a.length; i++) {
+  var i = 0;
+  var length = a.length;
+  var diff = [];
+  for (;i < length; i++) {
+    // if corresponding elements in a and b are not equal, push their position to diff array to be used later.
     if (a[i] !== b[i]) {
-      if (av === null || bv === null) {
-        av = a[i]; bv = b[i];
-      } else {
-        if (swap || av !== b[i] || bv !== a[i]) {
-          are = false;
-        }
-        swap = true;
-      }
+      diff.push(i);
     }
   }
-  return are;
+  // if there are no differences then the arrays are similar.
+  if (diff.length === 0) {
+    return true;
+  }
+  // if there are 2 differences, check to see if you would be able to swap the elemenst to make the arrays equal.
+  if (diff.length === 2) {
+    if (a[diff[0]] === b[diff[1]] && a[diff[1]] === b[diff[0]]) {
+      return true;
+    }
+  }
+  // if previous conditionals don't return true, the arrays are not similar.
+  return false;
 }
+
 solution();
