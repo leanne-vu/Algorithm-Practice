@@ -10,7 +10,7 @@
 // 3 + 5 = 8;
 // 5 + 1 = 6;
 // 1 + 6 = 7.
-// Thus, the answer is 8.
+// Thus, the answer is 8. hello
 function solution(inputArray, k) {
   var max = inputArray.slice(0, k).reduce((a, b) => a + b);
   var cur = max;
