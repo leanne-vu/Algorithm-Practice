@@ -12,10 +12,13 @@
 // For n = 91, the output should be
 // solution(n) = 2.
 // 9 + 1 = 10 -> 1 + 0 = 1.
+
 function solution(n) {
-  if (n < 10)
-    return 0;
-  return 1 + digitDegree(Number(String(n).split('').map(Number).reduce((a, b) => a + b)));
+  let degrees = 0
+  while (n >= 10) {
+    degrees++
+    n = n.toString().split('').reduce((sum, digit) => +sum + +digit)
+  }
+  return degrees
 
 }
-solution()
