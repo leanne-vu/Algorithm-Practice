@@ -22,14 +22,11 @@
 
 
 function solution(text) {
-  var words = text.match(/\w+/g);
-
-  var ml = Math.max(...words.map(el => el.length))
-
-  for (var i = 0; i < words.length; i++) {
-    if (words[i].length == ml)
-      return words[i]
-  }
+  let patt = /[^a-z^A-Z]/
+   text = text.split(patt)
+   let longest = text.reduce(function (a, b) {return a.length > b.length ? a
+  : b;});
+  return longest
 }
 
 solution()
