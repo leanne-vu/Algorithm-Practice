@@ -1,4 +1,4 @@
-// You are given a two - digit integer n.Return the sum of its digits.
+// You are given a two - digit integer n. Return the sum of its digits.
 
 //   Example
 
@@ -33,6 +33,5 @@
 
 function solution(n) {
   return String(n).split('').map(Number).reduce((a, b) => a + b);
-
 }
 solution()
