@@ -21,8 +21,7 @@
 // Because there is a tie, the smallest x between x = 2 and x = 3 is the answer.
 
 function solution(a) {
-  return a[Math.floor(a.length / 2) - (a.length % 2 ? 0 : 1)];
-
+  return a[Math.floor(a.length / 2) - (a.length % 2 ? 0 : 1)]
 }
 
 solution();
