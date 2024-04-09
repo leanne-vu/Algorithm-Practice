@@ -3,7 +3,6 @@ function solution(inputString) {
   var second = inputString.split('').reverse().join('');
   return (first === second);
 }
-
 solution();
 // For inputString = "aabaa", the output should be
 // solution(inputString) = true;
