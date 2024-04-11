@@ -20,5 +20,4 @@ function solution(inputString) {
 
   return answer;
 }
-
 solution();
