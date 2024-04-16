@@ -4,7 +4,6 @@
 
 // For a = [2, 2, 1] and b = [10, 11], the output should be
 // solution(a, b) = [2, 2, 1, 10, 11].
-
 //   Input / Output
 
 //   [execution time limit]4 seconds(js)
