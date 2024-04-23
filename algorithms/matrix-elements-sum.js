@@ -24,7 +24,6 @@
  0 ≤ matrix[i][j] ≤ 10.
  [output] integer
  */
-
 function solution(matrix) {
 
   let s = 0;
