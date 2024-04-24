@@ -3,7 +3,6 @@
 // Given an integer, find its digit degree.
 
 //   Example
-
 // For n = 5, the output should be
 // solution(n) = 0;
 // For n = 100, the output should be
