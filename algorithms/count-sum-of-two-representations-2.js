@@ -1,7 +1,6 @@
 // Given integers n, l and r, find the number of ways to represent n as a sum of two integers A and B such that l ≤ A ≤ B ≤ r.
 
 //   Example
-
 // For n = 6, l = 2, and r = 4, the output should be
 // solution(n, l, r) = 2.
 
