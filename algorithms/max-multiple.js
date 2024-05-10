@@ -20,8 +20,6 @@ Guaranteed constraints:
 The largest integer not greater than bound that is divisible by divisor.
 */
 
-// Solution :
-
 function solution(divisor, bound) {
   // Creat emtpy array
   let divisible = [];
