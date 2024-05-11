@@ -3,7 +3,6 @@
 // If the current number being checked is evenly divisible by 3(console.log(‘learning’))
 // If the current number being checked is evenly divisible by 5(console.log(‘fuze’))
 // If the current number being checked is evenly divisible by 3 & 5(console.log(‘learningfuze’)).
-
 function fuzebuzz(limit) {
   for (var i = 1; i <= limit; i++) {
     if (i % 3 === 0 && i % 5 === 0) { return 'learningfuze'; } else if (i % 3 === 0) { return 'learning'; } else if (i % 5 === 0) { return 'fuze'; }
