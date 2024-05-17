@@ -3,7 +3,6 @@
 // k = m!(where m! = 1 * 2 * ... * m) for some integer m;
 // k >= n.
 // In other words, find the smallest factorial which is not less than n.
-
 //   Example
 
 // For n = 17, the output should be
