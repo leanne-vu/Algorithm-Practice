@@ -5,7 +5,6 @@
 // Your task is to check by given string inputString whether it corresponds to MAC - 48 address or not.
 
 //   Example
-
 // For inputString = "00-1B-63-84-45-E6", the output should be
 // solution(inputString) = true;
 // For inputString = "Z1-1B-63-84-45-E6", the output should be
