@@ -5,7 +5,6 @@
 // solution(a, b, c) = 7.
 
 // The two equal numbers are a and c.The third number(b) equals 7, which is the answer.
-
 //   Input / Output
 
 //   [execution time limit]4 seconds(js)
