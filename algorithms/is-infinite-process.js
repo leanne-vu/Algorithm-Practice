@@ -4,7 +4,6 @@
 //   increase a by 1
 //   decrease b by 1
 // Assume that the program is executed on a virtual machine which can store arbitrary long numbers and execute forever.
-
 //   Example
 
 // For a = 2 and b = 6, the output should be
