@@ -3,7 +3,6 @@
 // Given two integers, your task is to find the result that the child will get.
 
 //   Note: The child had learned from this site, so feel free to check it out too if you are not familiar with column addition.
-
 //     Example
 
 // For param1 = 456 and param2 = 1734, the output should be
