@@ -4,7 +4,6 @@
 //   (where abs denotes the absolute value)
 
 // If there are several possible answers, output the smallest one.
-
 //   Example
 
 // For a = [2, 4, 7], the output should be solution(a) = 4.
