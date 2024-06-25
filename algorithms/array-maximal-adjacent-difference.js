@@ -7,5 +7,4 @@ function solution(inputArray) {
   }
   return max;
 }
-
 solution();
