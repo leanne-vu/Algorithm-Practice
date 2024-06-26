@@ -6,7 +6,6 @@
 
 // For a = [50, 60, 60, 45, 70], the output should be
 // solution(a) = [180, 105].
-
 function solution(a) {
   var sum1 = 0;
   var sum2 = 0;
