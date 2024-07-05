@@ -2,7 +2,6 @@
 
 // The bishop has no restrictions in distance for each move, but is limited to diagonal movement.Check out the example below to see how it can move:
 
-
 function solution(bishop, pawn) {
   var bishopCoords = bishop.split("");
   var pawnCoords = pawn.split("");
