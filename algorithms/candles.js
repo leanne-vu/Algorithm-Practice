@@ -3,7 +3,6 @@
 // You have candlesNumber candles in your possession.What's the total number of candles you can burn, assuming that you create new candles as soon as you have enough leftovers?
 
 // Example
-
 // For candlesNumber = 5 and makeNew = 2, the output should be
 // solution(candlesNumber, makeNew) = 9.
 
