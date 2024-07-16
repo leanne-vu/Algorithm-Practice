@@ -4,6 +4,7 @@ function solution(inputString) {
   return (first === second);
 }
 solution();
+
 // For inputString = "aabaa", the output should be
 // solution(inputString) = true;
 // For inputString = "abac", the output should be
