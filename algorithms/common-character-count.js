@@ -4,7 +4,6 @@
 // solution(s1, s2) = 3.
 
 // Strings have 3 common characters - 2 "a"s and 1 "c".
-
 function solution(s1, s2) {
   var count = 0;
   s1 = Array.from(s1);
