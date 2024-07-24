@@ -6,7 +6,6 @@
 
 //     For sequence= [1, 3, 2, 1], the output should be
 // solution(sequence) = false.
-
 // There is no one element in this array that can be removed in order to get a strictly increasing sequence.
 
 // For sequence = [1, 3, 2], the output should be
