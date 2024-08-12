@@ -11,5 +11,4 @@ function solution(inputArray) {
     }
   }
   return longboys;
-}
-solution();
+}solution();
