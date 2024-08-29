@@ -7,7 +7,6 @@
 
 // For param1 = 456 and param2 = 1734, the output should be
 // solution(param1, param2) = 1180.
-
 // 456
 // 1734
 //   + ____
